@@ -5,8 +5,9 @@ bounding boxes and classes. The ViT architecture, originally proposed for image 
 
 ### Below are the steps used in building the base model
 
-#### 1. Dataset Preparation (https://universe.roboflow.com/object-detection-i2phe/tomato1-kggoq/dataset/1)
+#### 1. Dataset Preparation 
 - Specifed the dataset paths to the training images and annotations in the tomato_base_dir and related variables and implemented a custom collate function to resize and preprocess the images.
+- This is the dataset used in the basemodel. (https://universe.roboflow.com/object-detection-i2phe/tomato1-kggoq/dataset/1)
   
 #### 2. Divide the Image into Patches
 - Used the split_image_into_patches function to divide the input image into patches.
